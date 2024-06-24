@@ -405,9 +405,9 @@ Auto DJ is the automatic Mixxx player engine. It automatically loads tracks in t
 Auto DJ needs tracks, these tracks can be manually selected on track level, on crate level or automatic from the library, read more below.
 
 To be able to mix the tracks Auto DJ takes control of the crossfader. See crossfader.
-Auto DJ requires the allocation of at least 1 deck to each side of the crossfader. The assignement of the decks is done by the orientation-knobs. Each deck can be orientated to the left side, right side or center of the crossfader. If a deck's orientation is centered, the crossfader can't affect it.
+Auto DJ requires the allocation of at least 1 deck to each side of the crossfader. The assignment of the decks is done by the orientation-knobs. Each deck can be orientated to the left side, right side or center of the crossfader. If a deck's orientation is centered, the crossfader can't affect it.
 When Auto DJ is toggled on, Auto DJ wil search for 2 decks that are on a opposit side of the crossfader (not centered). Auto DJ will check the decks in numeric order: if deck 1 is left orientated Auto DJ wil continue to search for a right-orientated deck. If this is deck 2, Auto DJ will work with decks 1 & 2. If deck 1 is right-roientated (fi in hamster-mode) Auto DJ wil search for a left-orientated desck. This can be deck 2,3 or 4.
-If no opposed decks were found Auto DJ won't start. 
+If no opposed decks were found Auto DJ won't start.
 Even decks that aren not visually shown in your Mixxx-skin can be used. To show deck 3 & 4, you can toggle the 4 Decks-button on top in the user interface or in the skin settings
 See skin settings.
 The crossfader indicates which deck is playing and moves to the other side during the transition to the new track.
