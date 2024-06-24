@@ -401,9 +401,19 @@ Auto DJ
 
    Mixxx library - Auto DJ view
 
-Auto DJ allows you to automatically load tracks from the Auto DJ playlist when
-the current track is nearly finished, and crossfade into it.  See
-:ref:`library-auto-dj`.
+Auto DJ is the automatic Mixxx player engine. It automatically loads tracks in the decks and mixes them automatically.
+Auto DJ needs tracks, these tracks can be manually selected on track level, on crate level or automatic from the library, read more below.
+
+To be able to mix the tracks Auto DJ takes control of the crossfader. See crossfader.
+Auto DJ requires the allocation of at least 1 deck to each side of the crossfader. The assignement of the decks is done by the orientation-knobs. Each deck can be orientated to the left side, right side or center of the crossfader. If a deck's orientation is centered, the crossfader can't affect it.
+When Auto DJ is toggled on, Auto DJ wil search for 2 decks that are on a opposit side of the crossfader (not centered). Auto DJ will check the decks in numeric order: if deck 1 is left orientated Auto DJ wil continue to search for a right-orientated deck. If this is deck 2, Auto DJ will work with decks 1 & 2. If deck 1 is right-roientated (fi in hamster-mode) Auto DJ wil search for a left-orientated desck. This can be deck 2,3 or 4.
+If no opposed decks were found Auto DJ won't start. 
+Even decks that aren not visually shown in your Mixxx-skin can be used. To show deck 3 & 4, you can toggle the 4 Decks-button on top in the user interface or in the skin settings
+See skin settings.
+The crossfader indicates which deck is playing and moves to the other side during the transition to the new track.
+When you toggle 'off' the Auto DJ, the crossfader will stay on it's last position.
+Since version 2.4.... you can choose to reset the crossfader to the centered positionafter disabling AUTO DJ by selecting the option 'reset crossfader to center after disabling Auto DJ' in the preferences. See :[crossfader](https://manual.mixxx.org/2.4/en/chapters/user_interface.html#crossfader](https://manual.mixxx.org/2.4/en/chapters/preferences).
+If Auto DJ is enabled, you can see a colored rectangule around the crossfader.
 
 Auto DJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
 
