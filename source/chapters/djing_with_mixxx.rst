@@ -401,7 +401,7 @@ Auto DJ
 
    Mixxx library - Auto DJ view
 
-Auto DJ is the automatic Mixxx player engine. It automatically loads tracks in the decks and mixes them automatically.
+Auto DJ automatically loads tracks in the decks and mixes them.
 Tracks can be manually added to the Auto DJ playlist, or automatically from assigned source crates or from the entire library.
 
 For mixing, Auto DJ takes control of the :ref:`crossfader <interface-crossfader>`.
