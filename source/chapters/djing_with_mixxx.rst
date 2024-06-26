@@ -401,8 +401,21 @@ Auto DJ
 
    Mixxx library - Auto DJ view
 
+.. figure:: ../_static/Mixxx-111-Library-Auto-DJ-Crossfader.png
+   :align: center
+   :width: 100%
+   :figwidth: 100%
+   :alt: Mixxx library - Auto DJ view
+   :figclass: pretty-figures
+
+   Mixxx library - Auto DJ and Crossfader view
+
+
+
 Auto DJ automatically loads tracks in the decks and mixes them.
 Tracks can be manually added to the Auto DJ playlist, or automatically from assigned source crates or from the entire library.
+
+Auto DJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
 
 For mixing, Auto DJ takes control of the :ref:`crossfader <interface-crossfader>`.
 Auto DJ requires at least one deck to be assigned to the left and right side of the crossfader. This can be done with the deck orientation switches next to the crossfader. If a deck's orientation is centered, the crossfader can't affect it. Note: in the official  Tango skin these switches are in the decks' transport controls row, and in Shade skin they don't exist because decks are statically assigned to the left and right side (bus).
@@ -416,8 +429,6 @@ When Auto DJ is toggled on, it will use the first two opposing decks it finds. W
 When you toggle 'off' the Auto DJ, the crossfader will stay on it's last position.
 
 Each official Mixxx skin has an Auto DJ indicator icon, located either in the top toolbar or in the mixer. In some skins the crossfader is highlighted, too.
-
-Auto DJ does not take into account the volume of each track, nor the frequency content, nor the rhythms, so it's not intended to be a replacement for a human DJ. However, it is good enough to give a human DJ a break without a major disruption to the mix.
 
 Loading tracks into Auto DJ
 ---------------------------
