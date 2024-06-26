@@ -408,7 +408,10 @@ For mixing, Auto DJ takes control of the :ref:`crossfader <interface-crossfader>
 Auto DJ requires at least one deck to be assigned to the left and right side of the crossfader. This can be done with the deck orientation switches next to the crossfader. If a deck's orientation is centered, the crossfader can't affect it. Note: in the official  Tango skin these switches are in the decks' transport controls row, and in Shade skin they don't exist because decks are statically assigned to the left and right side (bus).
 
 When Auto DJ is toggled on, it will use the first two opposing decks it finds. With default settings these would be decks 1 and 2, but depending on how the orientation switches are set, this could be any configuration, for example deck 4 on the left and deck 1 on the right. If no opposing decks are found Auto DJ won't start.
-Note that Auto DJ is currently not aware which decks are currently visible, i.e. it might pick currently hidden decks 3 and/or 4. Refer to the :ref:`skin settings <interface-skin-settings>` for how to toggle 4 decks.
+
+.. note:: Note that Auto DJ is currently not aware which decks are currently visible,
+          i.e. it might pick currently hidden decks 3 and/or 4. Refer to the
+          :ref:`skin settings <interface-skin-settings>` for how to toggle 4 decks.
 
 When you toggle 'off' the Auto DJ, the crossfader will stay on it's last position.
 
