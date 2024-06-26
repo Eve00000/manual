@@ -392,7 +392,7 @@ Auto DJ
 .. sectionauthor::
    S.Brandt <s.brandt@mixxx.org>
 
-.. figure:: ../_static/Mixxx-111-Library-Auto-DJ.png
+.. figure:: ../_static/Mixxx-241-Library-Auto-DJ.png
    :align: center
    :width: 100%
    :figwidth: 100%
@@ -400,17 +400,6 @@ Auto DJ
    :figclass: pretty-figures
 
    Mixxx library - Auto DJ view
-
-.. figure:: ../_static/Mixxx-111-Library-Auto-DJ-Crossfader.png
-   :align: center
-   :width: 100%
-   :figwidth: 100%
-   :alt: Mixxx library - Auto DJ view
-   :figclass: pretty-figures
-
-   Mixxx library - Auto DJ and Crossfader view
-
-
 
 Auto DJ automatically loads tracks in the decks and mixes them.
 Tracks can be manually added to the Auto DJ playlist, or automatically from assigned source crates or from the entire library.
